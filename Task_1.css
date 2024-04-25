@@ -1,0 +1,96 @@
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #c17fd3;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navigation styles */
+nav {
+    background-color: #9f03d3;
+    color: white;
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Section styles */
+section {
+    text-align: center;
+    padding: 20px;
+    background-color: #FFCDEA;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 20px auto;
+    padding: 10px;
+    background-color: rgb(238, 234, 234);
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.container img {
+    max-width: 100%;
+    width: 1000px;
+    height: auto;
+    display: block;
+    margin: 0 auto 20px;
+}
+
+.container p {
+    text-align: justify;
+    line-height: 1.5;
+}
+
+/* Form styles */
+.form {
+    text-align: center;
+    padding: 20px;
+}
+
+.simple {
+    display: flex;
+    justify-content: center;
+}
+
+.simple input[type="text"] {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #e7a7a7;
+}
+
+.simple button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.simple button:hover {
+    background-color: black;
+}
